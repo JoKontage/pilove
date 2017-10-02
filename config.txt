@@ -52,3 +52,7 @@ gpu_mem=256
 #display_default_lcd=0
 
 # for more options see http://elinux.org/RPi_config.txt
+
+# Fix pilove missing audio for HMDI/Internal
+# Set to "on" to enable the onboard ALSA audio interface (default "off")
+dtparam=audio=on
